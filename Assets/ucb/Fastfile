@@ -1,0 +1,3 @@
+lane :testflight_upload do |options|
+    upload_to_testflight
+end
