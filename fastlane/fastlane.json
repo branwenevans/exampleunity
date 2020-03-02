@@ -1,0 +1,6 @@
+{
+	"fastfile": "Fastfile",
+    "lanes": {
+        "post_build": "testflight_upload"
+    }
+}
