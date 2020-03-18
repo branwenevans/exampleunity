@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class CiBuild
+public class CiBuild : MonoBehaviour
 {
     public static void PreExport(UnityEngine.CloudBuild.BuildManifestObject manifest)
     {
