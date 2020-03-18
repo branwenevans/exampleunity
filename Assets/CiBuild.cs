@@ -1,11 +1,10 @@
-﻿#if (UNITY_CLOUD_BUILD)
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CiBuild : MonoBehaviour
 {
-    public static void PreExport(UnityEngine.CloudBuild.BuildManifestObject manifest)
+    public static void MyPreExport(UnityEngine.CloudBuild.BuildManifestObject manifest)
     {
         int buildNumber = manifest.GetValue<int>("buildNumber");
         Debug.Log("****************BuildNumber");
@@ -24,4 +23,3 @@ public class CiBuild : MonoBehaviour
         AssetDatabase.SaveAssets();
     }
 }
-#endif
