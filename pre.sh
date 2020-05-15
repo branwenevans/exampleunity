@@ -8,3 +8,4 @@ echo "[npmAuth.'https://nexus3.domain.com/repository/repo/']" >> ~/.upmconfig.to
 echo "token = '$TEST'" >> ~/.upmconfig.toml
 echo "email = 'email@domain.com'" >> ~/.upmconfig.toml
 echo "alwaysAuth = true" >> ~/.upmconfig.toml
+cat ~/.upmconfig.toml
