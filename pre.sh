@@ -1,3 +1,9 @@
 echo "PRE BUILD SCRIPT!!"
 which xcrun
-echo "This is a new line!" >> README.md
+printenv
+echo "~/"
+ls ~/
+echo "~/.plastic4/"
+ls ~/.plastic4/
+echo "/Users/buildbot/"
+ls /Users/buildbot/
