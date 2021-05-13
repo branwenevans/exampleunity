@@ -1,4 +1,4 @@
 echo "PRE BUILD SCRIPT!!"
 printenv
 ls /tmp
-cat *.properties
+cat /tmp/*.properties
